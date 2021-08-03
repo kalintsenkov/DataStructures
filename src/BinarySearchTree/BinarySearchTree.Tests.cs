@@ -1,11 +1,10 @@
 namespace BinarySearchTree
 {
-    using Common;
     using NUnit.Framework;
 
     public class Tests
     {
-        private IAbstractBinarySearchTree<int> bst;
+        private BinarySearchTree<int> bst;
 
         [SetUp]
         public void InitializeBinarySearchTree()

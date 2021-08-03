@@ -7,7 +7,7 @@ namespace BinaryTree
 
     public class BinaryTreeTests
     {
-        private IAbstractBinaryTree<int> tree;
+        private BinaryTree<int> tree;
 
         [SetUp]
         public void InitializeBinaryTree()

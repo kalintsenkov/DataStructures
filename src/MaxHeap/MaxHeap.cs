@@ -1,10 +1,8 @@
 ﻿namespace MaxHeap
 {
     using System;
-    using Common;
 
-    public class MaxHeap<T> : IAbstractHeap<T>
-        where T : IComparable<T>
+    public class MaxHeap<T> where T : IComparable<T>
     {
         public int Size => throw new NotImplementedException();
 

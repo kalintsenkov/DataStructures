@@ -5,36 +5,39 @@ namespace MaxHeap
 
     public class MaxHeapTests
     {
+        //private MaxHeap<int> integerHeap;
+
+        //[SetUp]
+        //public void InitializeHeap()
+        //    => this.integerHeap = new MaxHeap<int>();
+
         //[Test]
         //public void TestHeapifyUpAddOne()
         //{
-        //    var integerHeap = new MaxHeap<int>();
-        //    integerHeap.Add(13);
-        //    Assert.AreEqual(13, integerHeap.Peek());
+        //    this.integerHeap.Add(13);
+        //    Assert.AreEqual(13, this.integerHeap.Peek());
         //}
 
         //[Test]
         //public void TestHeapifyUpAddMany()
         //{
-        //    var integerHeap = new MaxHeap<int>();
-        //    var elements = new List<int>() { 15, 6, 9, 5, 25, 8, 17, 16 };
-        //    foreach (var el in elements)
+        //    var elements = new List<int> { 15, 6, 9, 5, 25, 8, 17, 16 };
+        //    foreach (var element in elements)
         //    {
-        //        integerHeap.Add(el);
+        //        this.integerHeap.Add(element);
         //    }
-        //    Assert.AreEqual(25, integerHeap.Peek());
+        //    Assert.AreEqual(25, this.integerHeap.Peek());
         //}
 
         //[Test]
         //public void TestSizeShouldBeCorrect()
         //{
-        //    var integerHeap = new MaxHeap<int>();
-        //    var elements = new List<int>() { 15, 25, 6, 9, 5, 8, 17, 16 };
-        //    foreach (var el in elements)
+        //    var elements = new List<int> { 15, 25, 6, 9, 5, 8, 17, 16 };
+        //    foreach (var element in elements)
         //    {
-        //        integerHeap.Add(el);
+        //        this.integerHeap.Add(element);
         //    }
-        //    Assert.AreEqual(8, integerHeap.Size);
+        //    Assert.AreEqual(8, this.integerHeap.Size);
         //}
     }
 }

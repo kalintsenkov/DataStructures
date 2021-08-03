@@ -5,9 +5,10 @@
     using System.Linq;
     using Common;
 
-    public class BinaryTree<T> : IAbstractBinaryTree<T>
+    public class BinaryTree<T>
     {
-        public BinaryTree(Node<T> root) => this.Root = root;
+        public BinaryTree(Node<T> root)
+            => this.Root = root;
 
         public Node<T> Root { get; }
 

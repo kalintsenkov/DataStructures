@@ -1,10 +1,8 @@
 ﻿namespace PriorityQueue
 {
     using System;
-    using Common;
 
-    public class PriorityQueue<T> : IAbstractHeap<T>
-        where T : IComparable<T>
+    public class PriorityQueue<T> where T : IComparable<T>
     {
         public int Size => throw new NotImplementedException();
 
