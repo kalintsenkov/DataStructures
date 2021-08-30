@@ -2,7 +2,7 @@ namespace BinarySearchTree
 {
     using NUnit.Framework;
 
-    public class Tests
+    public class BinarySearchTreeTests
     {
         private BinarySearchTree<int> bst;
 
